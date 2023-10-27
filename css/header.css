@@ -1,0 +1,32 @@
+.header {
+    background-color: white;
+    min-height: 60px;
+    padding: 12px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.list li {
+    margin: 0 24px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header_logo {
+    max-width: 55px;
+}

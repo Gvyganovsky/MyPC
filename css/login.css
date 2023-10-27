@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.body {
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Carlito', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding-bottom: 90px;
+}
+
+.auth_body {
+    padding: 24px;
+    width: 280px;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.auth_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.auth_block {
+    display: grid;
+}
+
+.auth_logoBlock {
+    display: grid;
+    justify-content: center;
+}
+
+.auth_logo {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.auth_title-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0 24px;
+}
+
+.auth_title {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    margin-bottom: 4px;
+}
+
+.auth_input {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 auto 4px;
+    color: white;
+}
+
+.auth_p {
+    margin-bottom: 32px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.auth_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8PX;
+}
+
+.invalid-feedback {
+    display: none;
+    font-family: 'Russo One', sans-serif;
+    color: red;
+    font-size: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.invalid-feedback-visible {
+    display: block;
+}
+
+.auth_but {
+    background-color: #280360;
+    color: white;
+    border-radius: 24px;
+    border: none;
+    padding: 14px 18px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+    /* Анимация масштаба и цвета фона */
+}
+
+.auth_but:hover {
+    background-color: #573f7c;
+    transform: scale(1.1);
+    /* Увеличиваем масштаб при наведении */
+}
+
+.auth_input input {
+    border: none;
+    background-color: gainsboro;
+    outline: none;
+}
+
+.auth_text {
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.auth_login {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: white;
+    height: 80px;
+    padding: 12PX;
+    flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+    .auth_img {
+        max-width: 260px;
+        max-height: 260px;
+    }
+
+    .auth_body {
+        margin: 24px 12px;
+    }
+}
+
+@media (max-width: 550px) {
+    .auth_info {
+        justify-content: center;
+    }
+}

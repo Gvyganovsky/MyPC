@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.cookie-div {
+  position: fixed;
+  bottom: 1.5rem;
+  background-color: #280360;
+  padding: 8px 12px;
+  color: #fff;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 1rem;
+  font-family: 'Russo One', sans-serif;
+}
+
+.cookie-div p {
+  font-size: 0.875rem;
+  text-align: center;
+  margin: 4px;
+  color: white;
+  text-align: center;
+}
+
+.cookie-div button {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #280360;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.cookie-div button:hover {
+  background-color: #805acc;
+}
+
+.hidden {
+  display: none;
+}

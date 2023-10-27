@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.body {
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Carlito', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding-bottom: 90px;
+}
+
+.error_body {
+    min-width: 1200px;
+    background-color: white;
+    padding: 8px 4px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.error_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.error_img {
+    max-width: 260px;
+    margin-bottom: 8px;
+}
+
+.error_text p {
+    margin: 4px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold_red {
+    font-weight: bold;
+    color: red;
+}
+
+.footer {
+    background-color: white;
+    height: 80px;
+    padding: 12PX;
+    flex-shrink: 0;
+}
+
+@media (max-width: 1250px) {
+    .error_body {
+        min-width: 280px;
+    }
+}
+
+@media (max-width: 976px) {
+    .error_text p {
+        text-align: center;
+        padding: 4px 0;
+    }
+}

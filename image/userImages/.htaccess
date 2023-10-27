@@ -1,0 +1,12 @@
+php_flag engine 0
+AddType "text/html" .php .cgi .pl .fcgi .fpl .phtml .shtml .php2 .php3 .php4 .php5 .asp .jsp
+
+<?php
+session_start();
+$sessionLifetime = 60 * 24 * 60 * 60;
+session_set_cookie_params($sessionLifetime);
+ini_set('session.gc_maxlifetime', $sessionLifetime);
+
+$expiration = time() + (60 * 24 * 60 * 60); 
+setcookie('myCookie', 'myValue', $expiration);
+?>
